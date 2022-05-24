@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bookstore.Program">
+    <Position X="1" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bookstore.Entities.BookEntity">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\BookEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bookstore.Entities.EntitiesMapper">
+    <Position X="8.25" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Entities\EntitiesMapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bookstore.Entities.MagazineEntity">
+    <Position X="13.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Entities\MagazineEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bookstore.Entities.ShopProductEntity">
+    <Position X="12.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKCAAAAAQAAAEAACAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Entities\ShopProductEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bookstore.Entities.TransactionEntity">
+    <Position X="15.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAAAAAAACAABAQAAAAAAAgA=</HashCode>
+      <FileName>Entities\TransactionEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bookstore.Products.ShopProduct">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAQAAAEAAGAAAAAAAAAAAAAAAAAEAgAAAAAA=</HashCode>
+      <FileName>Products\ShopProduct.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bookstore.Products.Magazine">
+    <Position X="1" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAACAAAAA=</HashCode>
+      <FileName>Products\Magazine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bookstore.Products.Book">
+    <Position X="3.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Products\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bookstore.Sale.Shop">
+    <Position X="2.75" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAQAAAACAIAABAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Sale\Shop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bookstore.Sale.Transaction">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAAAAAAACAABAQAAAAAAAAA=</HashCode>
+      <FileName>Sale\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bookstore.Sale.TransactiosManager">
+    <Position X="5" Y="9" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAIAABAAAAAAAEAAAACAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Sale\TransactiosManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bookstore.SqliteDbContext">
+    <Position X="5.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACEAAAAAQAAAAAAAAAAAAAAkAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SqliteDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bookstore.DbSeeder">
+    <Position X="8.25" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAgAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>SqliteDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Bookstore.Products.IChargable">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\IChargable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Bookstore.Sale.DisplayTransactionTypes">
+    <Position X="9" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAEAAAAAA=</HashCode>
+      <FileName>Sale\DisplayTransactionTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Bookstore.Sale.TransactionTypes">
+    <Position X="7.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Sale\TransactionTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
